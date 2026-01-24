@@ -1,0 +1,46 @@
+Have to do this in Express JS Manually :: 
+    Scalable Folder Structure
+    Linting
+    Formatting
+    Validation
+    Error Handling
+    Auth
+    Logging
+    Configuration
+    
+While the NestJS provide all of this by default using CLI
+==========================================================================
+NestJS is based on ExpressJS
+Fastify is also based on ExpressJS
+==========================================================================
+npm i -g @nestjs/cli
+nest -v
+==========================================================================
+nest new <project_name>
+cd <project name folder>
+pnpm run start
+==========================================================================
+Express JS Flow 
+User ===> Middleware ===> Routes ===> Controllers ===> Services ===> Database
+
+Nest JS Flow
+User ===> Module (Middleware, Routes, Controllers, Services) ===> Database
+==========================================================================
+nest --help
+nest g module auth
+nest g controller auth
+nest g service auth
+==========================================================================
+pnpm add bcrypt
+pnpm add -D @types/bcrypt
+==========================================================================
+nest g resource <Resource Name>
+==========================================================================
+==========================================================================
+==========================================================================
+==========================================================================
+==========================================================================
+==========================================================================
+==========================================================================
+What is npm and pnpm?
+what is the meaning of DTO?
